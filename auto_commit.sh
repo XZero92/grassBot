@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Git 저장소 경로 설정 (본인의 경로로 변경)
 REPO_PATH="/home/ubuntu/github-grass-bot"
