@@ -10,7 +10,7 @@ COMMIT_MESSAGE="잔디 심기 봇: $(date +%Y-%m-%d_%H-%M-%S)"
 TARGET_FILE="$REPO_PATH/commit_log.txt"
 
 # 현재 시간을 추가할 내용
-NEW_LINE="## 잔디 심기 커밋: $(date +%Y년 %m월 %d일 %H시 %M분 %S초)"
+NEW_LINE="## 잔디 심기 커밋: $(date "+%Y년 %m월 %d일 %H시 %M분 %S초")"
 
 # 새로운 라인을 target_file에 추가 (현재 시간을 추가)
 echo "$NEW_LINE" >> "$TARGET_FILE"
